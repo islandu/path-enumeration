@@ -207,7 +207,7 @@ int main()
   std::vector< std::vector<int> > allPaths;
 
   // Instantiating test graph 1
-  Graph graph1( "/Users/DT/Code/Projects/path-enumeration/test-graphs/test1.txt" );
+  Graph graph1( "test-graphs/test1.txt" );
 
   // Populating vector with all possible paths
   graph1.enumeratePaths( allPaths );
@@ -224,7 +224,7 @@ int main()
   std::cout << std::endl;
 
   // Instantiating test graph 2
-  Graph graph2( "/Users/DT/Code/Projects/path-enumeration/test-graphs/test2.txt" );
+  Graph graph2( "test-graphs/test2.txt" );
 
   // Populating vector with all possible paths
   graph2.enumeratePaths( allPaths );
